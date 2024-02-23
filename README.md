@@ -17,7 +17,8 @@ In this program, I write parts of a simple audio application program (i.e. an ap
 
 8. Podcast: Design a class which is also a subclass of AudioContent that contains extra information. A podcast is essentially a talk radio series on demand. Podcasts tend to be focused on a theme or topic. Podcasts should have a host (String) as well as a list of Seasons. Each Season should consist of a list of episodes (strings representing the "audiofiles") a list of episode titles (strings) and a list of episode lengths (in minutes). See the video of an example of podcast content.  Provide the ability to play a specific episode of a season. You may want to create a class Season to hold the episode information for a season. Add code to MyAudio.java for actions PODCASTS, PLAYPOD.
 
-UPDATED VERSION: 
+UPDATED VERSION:
+
 In myAudioUI: 
 
 - SEARCH: Add an action called SEARCH to myAudioUI as well as necessary code to class AudioContentStore that searches the store for an audio content with the specified title. That is, the user types SEARCH then is prompted to enter a title string. If the audio content with this title is found in the store then print the index of this content and the info for this content. A separate part of this new functionality is to use a Map in class AudioContentStore that maps a title (string) to an integer value. The integer value represents an index into the contents array list.
